@@ -20,7 +20,7 @@ function App() {
         <div className="test">
           <img
             className="img"
-            src="/public/image1.avif"
+            src="/image1.avif"
             alt="image"
             height={200}
             width={300}
