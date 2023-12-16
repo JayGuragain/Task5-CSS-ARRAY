@@ -1,68 +1,115 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+#root {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(193, 164, 164, 0.684);
+  height: 100vh;
+  width: 100vh;
+}
+.side-display {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(65, 65, 225);
+  margin-right: 30px;
+  padding: 16px;
+  align-items: center;
+  border-top-left-radius: 44px;
+  border-bottom-right-radius: 44px;
+}
+
+.singer {
+  background-color: #fdc528;
+  padding: 6px;
+  color: rgb(58, 52, 52);
+  border-radius: 8px;
+}
+
+.list {
+  text-align: center;
+  list-style-type: square;
+  padding: 20px;
+  margin-top: -10px;
+  background-color: #ffffff;
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+
+.container {
+  height: 83vh;
+  width: 40vh;
+  background-color: #e3dbdb;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5),
+    /* inner shadow */ 0 0 20px rgba(178, 171, 171, 0.9);
+}
+
+.test .img {
+  object-fit: fill;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: "gilroy";
+  font-size: 30px;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.para {
+  color: #6b6567;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(336, 5%, 80%);
+  margin-left: 16px;
+  margin-right: 16px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(161, 139, 139, 0.5),
+    0 0 20px rgba(229, 217, 217, 0.9); /* inner shadow */
+}
+#annual {
+  font-weight: bold;
+  font-family: "gilroy";
+  margin-bottom: 0;
+}
+
+#price {
+  font-weight: none;
+  font-family: "gilroy";
+  margin-top: 0;
+  color: #6b6567;
+  font-weight: bold;
+}
+
+#change {
+  display: flex;
+  padding-left: 40px;
+  text-decoration: underline;
+  color: blue;
+}
+
+.paymnet {
+  background-color: rgb(65, 65, 225);
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(98, 89, 89, 0.5), 0 0 20px rgba(255, 255, 255, 0.9); /* inner shadow */
+}
+
+#cancel {
+  font-weight: 600;
 }
