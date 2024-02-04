@@ -4,7 +4,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 ## Live Preview
 
-Experience our project in action! Check out the [Live Preview](https://vocal-cannoli-fa0bd7.netlify.app/).
+Experience our project in action! Check out the [Live Preview]([https://vocal-cannoli-fa0bd7.netlify.app/](https://tubular-cuchufli-6d6aa0.netlify.app/)).
 
 Currently, two official plugins are available:
 
